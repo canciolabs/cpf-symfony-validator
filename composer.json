@@ -30,6 +30,9 @@
         }
     },
     "require": {
-        "php": ">=7.4"
+        "php": ">=8.0",
+        "ext-intl": "*",
+        "symfony/validator": "^5.4",
+        "cancio-labs/cpf-validation-function": "^1.0"
     }
 }
