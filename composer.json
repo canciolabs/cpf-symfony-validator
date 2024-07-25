@@ -1,0 +1,38 @@
+{
+    "name": "cancio-labs/cpf-symfony-validator",
+    "description": "A custom Symfony Validator that validates CPF.",
+    "type": "library",
+    "keywords": ["symfony", "validator", "cpf"],
+    "homepage": "https://github.com/canciolabs/cpf-symfony-validator",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Nilo Soares",
+            "email": "nilosoares@gmail.com"
+        },
+        {
+            "name": "Cancio Labs",
+            "email": "canciolabs@gmail.com"
+        },
+        {
+            "name": "NSCPS Solutions",
+            "email": "nscpssolutions@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CancioLabs\\Validator\\Cpf\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CancioLabs\\Validator\\Cpf\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-intl": "*",
+        "symfony/validator": "^5.4",
+        "cancio-labs/cpf-validation-function": "^1.0"
+    }
+}
