@@ -31,6 +31,7 @@
     },
     "require": {
         "php": ">=7.4",
-        "symfony/validator": "^5.4"
+        "symfony/validator": "^5.4",
+        "cancio-labs/cpf-validation-function": "^1.0"
     }
 }
