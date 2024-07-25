@@ -4,7 +4,8 @@ A custom Symfony Validator that validates CPF.
 
 ## Requirements
 
-- PHP >= 7.4
+- PHP >= 8.0
+- intl extension
 
 ## Installation
 
